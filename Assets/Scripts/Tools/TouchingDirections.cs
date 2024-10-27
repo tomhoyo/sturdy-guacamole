@@ -18,7 +18,7 @@ namespace Assets.Scripts.Movement
 
         private void FixedUpdate()
         {
-            if (Time.frameCount % 4 == 0)
+            if (Time.frameCount % 5 == 0)
             {
 
                 IsGrounded = false;

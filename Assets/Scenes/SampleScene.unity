@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 573339082}
   - component: {fileID: 573339083}
   - component: {fileID: 573339086}
-  - component: {fileID: 573339084}
+  - component: {fileID: 573339088}
   - component: {fileID: 573339078}
   - component: {fileID: 573339080}
   - component: {fileID: 573339081}
@@ -564,7 +564,7 @@ Transform:
   m_GameObject: {fileID: 573339077}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.86, y: 1.73, z: 0.52}
+  m_LocalPosition: {x: 2.86, y: 0, z: 0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -585,45 +585,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5e19e9bd3706048a04cbcbc9f73963, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &573339084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573339077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: ce0150a6cd35fdf4b97ece907a3559d4,
-    type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 77babd57-4343-4e84-8b93-b61dde80b7b2
-    m_ActionName: 'Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 23a16a82-eb97-4e9c-88e9-74f2f3d17992
-    m_ActionName: 'Player/Fire[/Mouse/leftButton]'
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!114 &573339086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,6 +630,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &573339088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573339077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b375759fc215152488f1cb5f7a5027e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &804086238
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +825,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069238746}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 656c3b658e3fa8b4c9d14211a8505588, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -927,7 +900,7 @@ Transform:
   m_GameObject: {fileID: 1069238746}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.8559, y: 0.6544, z: 3.6766}
+  m_LocalPosition: {x: 14.8559, y: 0.13, z: 3.6766}
   m_LocalScale: {x: 6.5936093, y: 0.4642001, z: 8.352158}
   m_ConstrainProportionsScale: 0
   m_Children: []
